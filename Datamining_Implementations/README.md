@@ -1,0 +1,2 @@
+# Datamining-Implementations
+Few Algorithem 
