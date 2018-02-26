@@ -4,14 +4,13 @@
 #include <cmath>
 #include <cstring>
 #include <climits>
-
 using namespace std;
 
 void kmean ( double vals[200][4], int n )
 {
 	int cluster[200];
 	double mean[3][4];
-	
+    int onnum;
 	srand ( time( NULL ) ) ;
 	int ran[3];
 	ran[0] = rand ( ) % n;
